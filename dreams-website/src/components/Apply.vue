@@ -1,6 +1,6 @@
 <template>
   <div id="apply" v-if="this.$store.state.cover">
-    <transition name="fade" mode="out-in">
+    <transition name="fade" mode="in-out">
       <div class="apply">
         <p>
           Aktualnie nie prowadzimy rekrutacji poprzez Google Forms czy inny
@@ -13,10 +13,30 @@
 
         <p>
           <span class="officer" @click="openProfile('Mèo')">Mèo</span>,
-          <span class="officer" @click="openProfile('Vânila')" style="color: #00FF96;">Vânila</span>,
-          <span class="officer" @click="openProfile('Warflakes')" style="color: #00FF96;">Warflakes</span>,
-          <span class="officer" @click="openProfile('Antrack')" style="color: #A330C9;">Antrack</span>,
-          <span class="officer" @click="openProfile('Antrack')" style="color: #FFF569;">Arthres</span>
+          <span
+            class="officer"
+            @click="openProfile('Vânila')"
+            style="color: #00FF96;"
+            >Vânila</span
+          >,
+          <span
+            class="officer"
+            @click="openProfile('Warflakes')"
+            style="color: #00FF96;"
+            >Warflakes</span
+          >,
+          <span
+            class="officer"
+            @click="openProfile('Antrack')"
+            style="color: #A330C9;"
+            >Antrack</span
+          >,
+          <span
+            class="officer"
+            @click="openProfile('Antrack')"
+            style="color: #FFF569;"
+            >Arthres</span
+          >
         </p>
 
         <div class="apply-button-box">
@@ -38,12 +58,21 @@ export default {
   methods: {
     closeApplyBox() {
       this.$store.state.cover = false;
-      document.body.style.position = "static";
-      document.querySelector("body").style.overflow = 'visible';
+      var scrollDiv = document.getElementById("Recruitment").offsetTop;
+      if (window.scrollY >= 5) {
+        window.scrollTo({ top: scrollDiv - 100, behavior: "smooth" });
+      } else {
+        window.scrollTo({ top: scrollDiv - 150, behavior: "smooth" });
+      }
     },
     openProfile(name) {
-      window.open(`https://raider.io/characters/eu/burning-legion/${name}`, '_blank').focus();
-    }
+      window
+        .open(
+          `https://raider.io/characters/eu/burning-legion/${name}`,
+          "_blank"
+        )
+        .focus();
+    },
   },
 };
 </script>
@@ -51,12 +80,10 @@ export default {
 <style scoped>
 .apply {
   margin: auto;
-  position: absolute;
   border: 1px solid #478dff;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 10;
   color: white;
-  top: 215%;
   left: 21.1%;
   width: 57.75vw;
   text-align: center;

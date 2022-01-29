@@ -1,14 +1,19 @@
 <template>
   <div class="home">
-    <transition name="fade" mode="out-in" v-if="this.$store.state.cover">
-      <div class="cover" v-if="this.$store.state.cover" />
-    </transition>
     <Home />
+    <About id="About" />
+    <Roster id="Roster" />
+    <Progress id="Progress" />
+    <Recruitment id="Recruitment" />
   </div>
 </template>
 
 <script>
 import Home from "./Home";
+import About from "./About.vue";
+import Recruitment from "./Recruitment.vue";
+import Roster from './Roster.vue';
+import Progress from './Progress.vue';
 
 export default {
   name: "HomePage",
@@ -17,20 +22,12 @@ export default {
   },
   components: {
     Home,
+    About,
+    Recruitment,
+    Roster,
+    Progress
   },
 };
 </script>
 
-<style scoped>
-.cover {
-  width: 100vw;
-  height: 300vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 9;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  overflow-y: hidden;
-}
-</style>
+<style scoped></style>

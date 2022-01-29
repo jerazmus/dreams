@@ -12,8 +12,9 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item @click.prevent="about">O NAS</b-nav-item>
-          <b-nav-item @click.prevent="recruitment">SKŁAD</b-nav-item>
+          <b-nav-item @click.prevent="roster">SKŁAD</b-nav-item>
           <b-nav-item @click.prevent="progress">PROGRES</b-nav-item>
+          <b-nav-item @click.prevent="recruitment">REKRUTACJA</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -30,29 +31,27 @@ export default {
     scrollMeTo(refName) {
       this.$store.state.cover = false;
       var scrollDiv = document.getElementById(refName).offsetTop;
-      if(window.scrollY >= 5) {
-        window.scrollTo({ top: scrollDiv - 100, behavior: 'smooth'});
+      if (window.scrollY >= 5) {
+        window.scrollTo({ top: scrollDiv - 100, behavior: "smooth" });
       } else {
-        window.scrollTo({ top: scrollDiv - 150, behavior: 'smooth'});
+        window.scrollTo({ top: scrollDiv - 150, behavior: "smooth" });
       }
-  },
+    },
     home() {
-      // this.$router.push("/");
       this.$store.state.cover = false;
       window.scrollTo({ top: 0, behavior: "smooth" });
-    },
-    recruitment() {
-      // this.$router.push("/roster");
-      this.scrollMeTo("Recruitment");
     },
     about() {
-      // this.$router.push("/about");
       this.scrollMeTo("About");
     },
+    roster() {
+      this.scrollMeTo("Roster");
+    },
     progress() {
-      // this.$router.push("/progress");
-      this.$store.state.cover = false;
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      this.scrollMeTo("Progress");
+    },
+    recruitment() {
+      this.scrollMeTo("Recruitment");
     },
     collapse() {
       const button = document.querySelector("button");

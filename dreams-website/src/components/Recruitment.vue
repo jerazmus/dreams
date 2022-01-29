@@ -32,7 +32,7 @@
     <h3>
       Informacyjnie dla osób, które są zainteresowane główną grupą raidową:
     </h3>
-    <ul>
+    <ul class="information">
       <li>
         głównym wymaganiem jest dystans do siebie i umiejętność do ciągłego
         polepszania swojej gry, nie mamy nic przeciwko zapraszaniu do nas osób,
@@ -86,33 +86,27 @@
       <div class="apply-button-box">
         <button class="apply-button" @click="openApplyBox">Aplikuj!</button>
       </div>
+      <Apply />
     </div>
   </div>
 </template>
 
 <script>
+import Apply from './Apply.vue';
 export default {
+  components: { Apply },
   name: "Recruitment",
   data() {
     return {
       classes: [
-        { status: true,
-          class: "dk",
-          spec: ["frost", "unholy", "blood"]
-        },
-        { status: false,
-          class: "dh",
-          spec: ["havoc", "vengeance"]
-        },
+        { status: true, class: "dk", spec: ["frost", "unholy", "blood"] },
+        { status: false, class: "dh", spec: ["havoc", "vengeance"] },
         {
           status: true,
           class: "druid",
           spec: ["balance", "feral", "restoration", "guardian"],
         },
-        { status: false,
-          class: "mage",
-          spec: ["arcane", "frost", "fire"]
-        },
+        { status: false, class: "mage", spec: ["arcane", "frost", "fire"] },
         {
           status: true,
           class: "rogue",
@@ -176,12 +170,8 @@ export default {
     openApplyBox() {
       this.$store.state.cover = true;
       document.body.style.width = "100vw";
-      // const scrollY = document.documentElement.style.getPropertyValue(
-      //   "--scroll-y"
-      // );
-      // document.body.style.position = "fixed";
-      // document.body.style.top = `-${scrollY}`;
-      document.querySelector("body").style.overflow = 'hidden';
+      //var scrollDiv = document.getElementById("Apply").offsetTop;
+      window.scrollTo(-50, document.body.scrollHeight);
     },
   },
   mounted() {
@@ -198,6 +188,12 @@ h3 {
   margin-top: 5px;
   text-align: center !important;
   text-shadow: black 2px 0 10px;
+}
+
+p,
+.information {
+  text-justify: auto;
+  text-align: justify;
 }
 
 li {

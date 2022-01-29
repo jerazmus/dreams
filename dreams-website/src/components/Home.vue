@@ -1,40 +1,33 @@
 <template>
   <div class="home">
-    <img src="../assets/logo/final-solo.png" class="logo non-selectable" />
-    <h1 class="guild">Dreams</h1>
-    <h1>Dołącz do gildii i graj razem z nami</h1>
-    <h2>
-      Gildia dla osób zarówno do progresowania contentu jak i casualowego grania
-    </h2>
-    <a :target="`_blank`" :href="raiderio"
-      ><img
-        src="@/assets/home-icons/raiderio.png"
-        class="wow-icon non-selectable"
-    /></a>
-    <a :target="`_blank`" :href="wowprogress"
-      ><img
-        src="@/assets/home-icons/wowprogress.png"
-        class="wow-icon non-selectable"
-    /></a>
-    <a :target="`_blank`" :href="warcraftlogs"
-      ><img
-        src="@/assets/home-icons/warcraftlogs.png"
-        class="wow-icon non-selectable"
-    /></a>
-
-    <About id="About"/>
-    <Recruitment id="Recruitment"/>
-    <Apply />
-    <!-- <Progress /> -->
+    <div class="welcome-page">
+      <img src="../assets/logo/final-solo.png" class="logo non-selectable" />
+      <h1 class="guild">Dreams</h1>
+      <h1>Dołącz do gildii i graj razem z nami</h1>
+      <h2>
+        Gildia dla osób zarówno do progresowania contentu jak i casualowego
+        grania
+      </h2>
+      <a :target="`_blank`" :href="raiderio"
+        ><img
+          src="@/assets/home-icons/raiderio.png"
+          class="wow-icon non-selectable"
+      /></a>
+      <a :target="`_blank`" :href="wowprogress"
+        ><img
+          src="@/assets/home-icons/wowprogress.png"
+          class="wow-icon non-selectable"
+      /></a>
+      <a :target="`_blank`" :href="warcraftlogs"
+        ><img
+          src="@/assets/home-icons/warcraftlogs.png"
+          class="wow-icon non-selectable"
+      /></a>
+    </div>
   </div>
 </template>
 
 <script>
-import About from "./About.vue";
-import Apply from "./Apply.vue";
-import Recruitment from "./Recruitment.vue";
-// import Progress from './Progress.vue'
-
 export default {
   name: "Home",
   data() {
@@ -43,12 +36,6 @@ export default {
       wowprogress: "https://www.wowprogress.com/guild/eu/burning-legion/Dreams",
       warcraftlogs: "https://www.warcraftlogs.com/guild/id/564669",
     };
-  },
-  components: {
-    About,
-    Recruitment,
-    Apply,
-    // Progress
   },
 };
 </script>
@@ -84,6 +71,11 @@ h2 {
   padding-bottom: 20px;
   font-weight: 300;
   padding: 20px;
+}
+
+.welcome-page {
+  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .wow-icon {
