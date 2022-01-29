@@ -12,9 +12,11 @@
         </p>
 
         <p>
-          <span class="officer">Meo</span> (którakolwiek z postaci),
-          <span class="officer" style="color: #FFF569;">Arthres</span>,
-          <span class="officer" style="color: #A9D271;">Alarija</span>.
+          <span class="officer" @click="openProfile('Mèo')">Mèo</span>,
+          <span class="officer" @click="openProfile('Vânila')" style="color: #00FF96;">Vânila</span>,
+          <span class="officer" @click="openProfile('Warflakes')" style="color: #00FF96;">Warflakes</span>,
+          <span class="officer" @click="openProfile('Antrack')" style="color: #A330C9;">Antrack</span>,
+          <span class="officer" @click="openProfile('Antrack')" style="color: #FFF569;">Arthres</span>
         </p>
 
         <div class="apply-button-box">
@@ -37,7 +39,11 @@ export default {
     closeApplyBox() {
       this.$store.state.cover = false;
       document.body.style.position = "static";
+      document.querySelector("body").style.overflow = 'visible';
     },
+    openProfile(name) {
+      window.open(`https://raider.io/characters/eu/burning-legion/${name}`, '_blank').focus();
+    }
   },
 };
 </script>
@@ -62,6 +68,7 @@ export default {
 
 .officer {
   font-weight: 500;
+  cursor: pointer;
 }
 
 .apply-button-box {

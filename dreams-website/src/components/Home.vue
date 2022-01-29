@@ -22,10 +22,10 @@
         class="wow-icon non-selectable"
     /></a>
 
-    <About />
-    <Recruitment />
-    <!-- <Progress /> -->
+    <About id="About"/>
+    <Recruitment id="Recruitment"/>
     <Apply />
+    <!-- <Progress /> -->
   </div>
 </template>
 
@@ -77,6 +77,7 @@ h2 {
 .home {
   text-align: center;
   width: 60vw;
+  min-height: 100vh;
   height: auto;
   margin: 7.5vh auto 0px;
   color: white;

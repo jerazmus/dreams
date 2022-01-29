@@ -97,12 +97,13 @@ export default {
     return {
       classes: [
         { status: true,
-          class: "dk", 
-          spec: ["frost", "unholy", "blood"] 
+          class: "dk",
+          spec: ["frost", "unholy", "blood"]
         },
-        { status: false, 
+        { status: false,
           class: "dh",
-          spec: ["havoc", "vengeance"] },
+          spec: ["havoc", "vengeance"]
+        },
         {
           status: true,
           class: "druid",
@@ -110,7 +111,8 @@ export default {
         },
         { status: false,
           class: "mage",
-          spec: ["arcane", "frost", "fire"] },
+          spec: ["arcane", "frost", "fire"]
+        },
         {
           status: true,
           class: "rogue",
@@ -174,15 +176,18 @@ export default {
     openApplyBox() {
       this.$store.state.cover = true;
       document.body.style.width = "100vw";
-      const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}`;
+      // const scrollY = document.documentElement.style.getPropertyValue(
+      //   "--scroll-y"
+      // );
+      // document.body.style.position = "fixed";
+      // document.body.style.top = `-${scrollY}`;
+      document.querySelector("body").style.overflow = 'hidden';
     },
   },
   mounted() {
     this.requiredClasses = this.filterClasses();
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
@@ -213,6 +218,7 @@ li {
 .recruitment {
   text-align: center;
   width: 56.75vw;
+  min-height: 100vh;
   height: auto;
   margin: 20px auto 0px;
   color: white;

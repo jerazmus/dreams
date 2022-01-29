@@ -25,10 +25,10 @@
       niektóre osoby miały dość korupcji i wszystkiego innego co związane z
       dodatkiem - poskutkowało to tym, że po zabiciu Xanesh nie byliśmy w stanie
       progresować kolejnych bossów i zatrzymaliśmy się na zabitych 6 na 12
-      możliwych. Pozytywem wyciągniętym z Battle for Azeroth było
-      zbudowanie podstawy gildii jak i grupy raidowej, a w szczególności jej
-      kluczowych członków, którzy pomimo nieukończonej Ny'alothy byli gotowi do
-      mocnego wejścia w Shadowlands..
+      możliwych. Pozytywem wyciągniętym z Battle for Azeroth było zbudowanie
+      podstawy gildii jak i grupy raidowej, a w szczególności jej kluczowych
+      członków, którzy pomimo nieukończonej Ny'alothy byli gotowi do mocnego
+      wejścia w Shadowlands..
     </p>
 
     <h2>Shadowlands i Castle Nathria</h2>
@@ -36,26 +36,30 @@
       Wraz z rozpoczęciem nowego dodatku oraz wyjściem nowego raidu chcieliśmy
       zmienić nieco swoje podejście, usystematyzować gildię i mocno wejść w nowy
       raid, odpowiednio się do niego przygotowując. Naszym celem było zdobycie
-      Cutting Edge w każdym tierze Shadowlands. Nie byliśmy doświadczoną
-      gildią, dlatego ranking nie miał dla nas dużego znaczenia - chcieliśmy
-      w pełni ukończyć raid i umożliwić zdobycie achievementu każdemu z naszych
+      Cutting Edge w każdym tierze Shadowlands. Nie byliśmy doświadczoną gildią,
+      dlatego ranking nie miał dla nas dużego znaczenia - chcieliśmy w pełni
+      ukończyć raid i umożliwić zdobycie achievementu każdemu z naszych
       raiderów, a także zdobyć potrzebne doświadczenie do dalszego rozwijania
-      gildii i naszych umiejętności. Castle Nathria okazał się dobrym raidem, który
-      trochę jednak pokazał, że raidowanie na poziomie mythic będzie wymagało znacznie
-      więcej samozaparcia, ale też umiejętności. Po dosyć trudnym początku z czasem udało
-      się nam przeć naprzód i dojść do Sludgefista. Tutaj niestety pojawiły się problemy
-      typowe dla gildii z końca stawki, której celują w późny Cutting Edge. Wypalenie, problemy
-      z rekrutacją i uzupełnienim ludzi, ciągła rotacja i nauka walki od początku spowodowały,
-      że zostawiając Sludgefistowi zaledwie 4% życia grupa raidowa nie miała możliwość dalej grać.
+      gildii i naszych umiejętności. Castle Nathria okazał się dobrym raidem,
+      który trochę jednak pokazał, że raidowanie na poziomie mythic będzie
+      wymagało znacznie więcej samozaparcia, ale też umiejętności. Po dosyć
+      trudnym początku z czasem udało się nam przeć naprzód i dojść do
+      Sludgefista. Tutaj niestety pojawiły się problemy typowe dla gildii z
+      końca stawki, której celują w późny Cutting Edge. Wypalenie, problemy z
+      rekrutacją i uzupełnienim ludzi, ciągła rotacja i nauka walki od początku
+      spowodowały, że zostawiając Sludgefistowi zaledwie 4% życia grupa raidowa
+      nie miała możliwość dalej grać.
     </p>
 
     <h2>Sanctum of Domination, a następnie Sepulcher of the First Ones</h2>
     <p>
-      Po rozpadzie grupy raidowej, około połowa osób zdecydowała się na dalszą grę w innych gildiach,
-      natomiast połowa z nas całkowicie zrezygnowała z gry, a co za tym idzie z raidowania na Sanctum
-      of Domination. Pomimo tego gorzkiego zakończenia przygody na Castle Nathria, chcemy spróbować
-      jeszcze raz, tym razem ze zdobytym doświadczeniem i nową energią. Wracamy na ostatni patch Shadowlands
-      i celem jest wyczyszczenie raidu Sepulcher of the First Ones do końca dodatku!
+      Po rozpadzie grupy raidowej, około połowa osób zdecydowała się na dalszą
+      grę w innych gildiach, natomiast połowa z nas całkowicie zrezygnowała z
+      gry, a co za tym idzie z raidowania na Sanctum of Domination. Pomimo tego
+      gorzkiego zakończenia przygody na Castle Nathria, chcemy spróbować jeszcze
+      raz, tym razem ze zdobytym doświadczeniem i nową energią. Wracamy na
+      ostatni patch Shadowlands i celem jest wyczyszczenie raidu Sepulcher of
+      the First Ones do końca dodatku!
     </p>
   </div>
 </template>
@@ -83,6 +87,7 @@ h3 {
   text-justify: auto;
   text-align: justify;
   width: 60vw;
+  min-height: 100vh;
   height: auto;
   margin: 20px auto 0px;
   color: white;

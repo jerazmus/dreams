@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style scoped>
-
 .cover {
   width: 100vw;
   height: 280vh;
@@ -34,5 +33,4 @@ export default {
   top: 0;
   overflow-y: hidden;
 }
-
 </style>

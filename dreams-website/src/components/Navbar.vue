@@ -12,7 +12,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item @click.prevent="about">O NAS</b-nav-item>
-          <b-nav-item @click.prevent="team">SKŁAD</b-nav-item>
+          <b-nav-item @click.prevent="recruitment">SKŁAD</b-nav-item>
           <b-nav-item @click.prevent="progress">PROGRES</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
@@ -27,20 +27,27 @@ export default {
     return {};
   },
   methods: {
+    scrollMeTo(refName) {
+      this.$store.state.cover = false;
+      var scrollDiv = document.getElementById(refName).offsetTop;
+      if(window.scrollY >= 5) {
+        window.scrollTo({ top: scrollDiv - 100, behavior: 'smooth'});
+      } else {
+        window.scrollTo({ top: scrollDiv - 150, behavior: 'smooth'});
+      }
+  },
     home() {
-      this.$router.push("/");
+      // this.$router.push("/");
       this.$store.state.cover = false;
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
-    team() {
+    recruitment() {
       // this.$router.push("/roster");
-      this.$store.state.cover = false;
-      window.scrollTo({ top: 1660, behavior: "smooth" });
+      this.scrollMeTo("Recruitment");
     },
     about() {
       // this.$router.push("/about");
-      this.$store.state.cover = false;
-      window.scrollTo({ top: 800, behavior: "smooth" });
+      this.scrollMeTo("About");
     },
     progress() {
       // this.$router.push("/progress");

@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 
 export default {
   components: {
-    Navbar
-  }
-}
+    Navbar,
+  },
+};
 </script>
 
 <style>
@@ -29,7 +29,7 @@ body {
   overflow-y: scroll;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   transition: 500ms ease;
 }
 
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
   padding: 0;
   min-height: 100vh;
   height: auto;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .fade-enter-active,
@@ -67,6 +67,6 @@ body::-webkit-scrollbar {
 
 .fade-enter,
 .fade-leave-active {
-  opacity: 0
+  opacity: 0;
 }
 </style>
