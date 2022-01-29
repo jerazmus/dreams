@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .cover {
   width: 100vw;
-  height: 280vh;
+  height: 300vh;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9;
   position: absolute;
