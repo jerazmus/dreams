@@ -33,17 +33,17 @@ export default {
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
     team() {
-      this.$router.push("/roster");
+      // this.$router.push("/roster");
       this.$store.state.cover = false;
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 1660, behavior: "smooth" });
     },
     about() {
-      this.$router.push("/about");
+      // this.$router.push("/about");
       this.$store.state.cover = false;
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      window.scrollTo({ top: 800, behavior: "smooth" });
     },
     progress() {
-      this.$router.push("/progress");
+      // this.$router.push("/progress");
       this.$store.state.cover = false;
       window.scrollTo({ top: 0, behavior: "smooth" });
     },

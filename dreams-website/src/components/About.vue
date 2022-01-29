@@ -25,7 +25,7 @@
       niektóre osoby miały dość korupcji i wszystkiego innego co związane z
       dodatkiem - poskutkowało to tym, że po zabiciu Xanesh nie byliśmy w stanie
       progresować kolejnych bossów i zatrzymaliśmy się na zabitych 6 na 12
-      możliwych bossów. Pozytywem wyciągniętym z Battle for Azeroth było
+      możliwych. Pozytywem wyciągniętym z Battle for Azeroth było
       zbudowanie podstawy gildii jak i grupy raidowej, a w szczególności jej
       kluczowych członków, którzy pomimo nieukończonej Ny'alothy byli gotowi do
       mocnego wejścia w Shadowlands..
@@ -33,72 +33,30 @@
 
     <h2>Shadowlands i Castle Nathria</h2>
     <p>
-      Wraz z rozpoczęciem nowego dodatku oraz wyjściem nowego raidu chcemy
+      Wraz z rozpoczęciem nowego dodatku oraz wyjściem nowego raidu chcieliśmy
       zmienić nieco swoje podejście, usystematyzować gildię i mocno wejść w nowy
-      raid, odpowiednio się do niego przygotowując. Naszym celem będzie zdobycie
-      Cutting Edge w każdym tierze Shadowlands. Nie jesteśmy doświadczoną
-      gildią, dlatego ranking nie będzie miał dla nas dużego znaczenia - chcemy
+      raid, odpowiednio się do niego przygotowując. Naszym celem było zdobycie
+      Cutting Edge w każdym tierze Shadowlands. Nie byliśmy doświadczoną
+      gildią, dlatego ranking nie miał dla nas dużego znaczenia - chcieliśmy
       w pełni ukończyć raid i umożliwić zdobycie achievementu każdemu z naszych
       raiderów, a także zdobyć potrzebne doświadczenie do dalszego rozwijania
-      gildii i naszych umiejętności.
+      gildii i naszych umiejętności. Castle Nathria okazał się dobrym raidem, który
+      trochę jednak pokazał, że raidowanie na poziomie mythic będzie wymagało znacznie
+      więcej samozaparcia, ale też umiejętności. Po dosyć trudnym początku z czasem udało
+      się nam przeć naprzód i dojść do Sludgefista. Tutaj niestety pojawiły się problemy
+      typowe dla gildii z końca stawki, której celują w późny Cutting Edge. Wypalenie, problemy
+      z rekrutacją i uzupełnienim ludzi, ciągła rotacja i nauka walki od początku spowodowały,
+      że zostawiając Sludgefistowi zaledwie 4% życia grupa raidowa nie miała możliwość dalej grać.
     </p>
 
-    <h2>Kogo szukamy?</h2>
+    <h2>Sanctum of Domination, a następnie Sepulcher of the First Ones</h2>
     <p>
-      Przede wszystkim osób, które są nastawione na pushowanie contentu (czy to
-      raidów, czy M+). Mamy swoje ambicje, chcemy być kompetytywni i cały czas
-      testować swoje limity, ale chcemy mieć przy tym frajdę i odrobinę luzu -
-      jeśli też czujesz podobnie i chciałbyś powoli progresować w spokojnej
-      atmosferze - myślę, że się dogadamy. Nie chcemy przy tym regresować, raz
-      wyczyszczony content chcemy by był tylko formalnością. Jeśli chcesz z nami
-      raidować, bądź po prostu gotów udźwignąć swoją własną wagę i nie bądź
-      ciężarem dla reszty grupy. Czego się można po nas spodziewać? Ludzi w
-      wieku 18+, pracujących, studiujących i z chęcią do gry. Nie bardzo nas
-      obchodzi ile masz lat ani jakiej jesteś płci - tak długo jak jesteś w
-      porządku i rozumiesz po co i w jaki sposób gramy. Nie mamy specjalnie
-      zasad - bądź sobą i szanuj to, że inni też chcą być sobą, więc nie zniżaj
-      się do poziomu wyzwisk i kłótni - jeśli coś do kogoś masz, powiedz mu to
-      wprost.
+      Po rozpadzie grupy raidowej, około połowa osób zdecydowała się na dalszą grę w innych gildiach,
+      natomiast połowa z nas całkowicie zrezygnowała z gry, a co za tym idzie z raidowania na Sanctum
+      of Domination. Pomimo tego gorzkiego zakończenia przygody na Castle Nathria, chcemy spróbować
+      jeszcze raz, tym razem ze zdobytym doświadczeniem i nową energią. Wracamy na ostatni patch Shadowlands
+      i celem jest wyczyszczenie raidu Sepulcher of the First Ones do końca dodatku!
     </p>
-
-    <h2>... jednak dla casuali również jest miejsce!</h2>
-    <p>
-      Tak, gildia powstała głównie z założeniem o zebraniu fajnej, zgranej
-      ekipy, która wspólnie będzie miała frajdę z gry. Nie zamierzamy z tego
-      rezygnować, a więc nie zamykamy naszych drzwi dla graczy, którzy mają
-      nieco bardziej luźne podejście do gry, nie interesuje ich progres mythica,
-      ale raczej zadowolą się heroiczną wersją raidu, zagraniem niedzielnego
-      dungeona czy niezliczonymi próbami zdobycia mounta z Icecrown Citadel -
-      jeśli jesteś taką osobą, nie bój się aplikować!
-    </p>
-
-    <h3>
-      Informacyjnie dla osób, które są zainteresowane główną grupą raidową:
-    </h3>
-    <ul>
-      <li>
-        głównym wymaganiem jest dystans do siebie i umiejętność do ciągłego
-        polepszania swojej gry, nie mamy nic przeciwko zapraszaniu do nas osób,
-        które są niedoświadczone i uczą się gry - ważnym jest, aby znać swoje
-        możliwości i starać się gonić poziom pozostałych osób, a nie szukać
-        boosta - takich osób nie chcemy
-      </li>
-      <li>
-        raidować mythic będzie najlepsze 20 osób, które pokażą nie tylko skill,
-        ale również zaangażowanie
-      </li>
-      <li>
-        przed startem raidów podawane będą wymagania, które należy spełnić, aby
-        raidować z gildią
-      </li>
-    </ul>
-
-    <h3>Dni i godziny raidów:</h3>
-    <ul>
-      <li>środa (19:00 - 22:00)</li>
-      <li>czwartek (19:00 - 22:00)</li>
-      <li>niedziela (19:00 - 22:00) - zwykle przeznaczony na heroic</li>
-    </ul>
   </div>
 </template>
 
@@ -112,16 +70,12 @@ export default {
 </script>
 
 <style scoped>
-.about li {
-  text-align: left !important;
-}
-
 h2,
 h3 {
   font-weight: 300;
   color: white;
   margin-top: 5px;
-  text-align: left !important;
+  text-align: center !important;
   text-shadow: black 2px 0 10px;
 }
 

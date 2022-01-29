@@ -50,7 +50,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 10;
   color: white;
-  top: 30%;
+  top: 215%;
   left: 21.1%;
   width: 57.75vw;
   text-align: center;

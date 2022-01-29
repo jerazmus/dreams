@@ -2,7 +2,7 @@
   <div class="home">
     <img src="../assets/logo/final-solo.png" class="logo non-selectable" />
     <h1 class="guild">Dreams</h1>
-    <h1>Dołącz do gildii i razem z nami wejdź w Shadowlands</h1>
+    <h1>Dołącz do gildii i graj razem z nami</h1>
     <h2>
       Gildia dla osób zarówno do progresowania contentu jak i casualowego grania
     </h2>
@@ -21,10 +21,20 @@
         src="@/assets/home-icons/warcraftlogs.png"
         class="wow-icon non-selectable"
     /></a>
+
+    <About />
+    <Recruitment />
+    <!-- <Progress /> -->
+    <Apply />
   </div>
 </template>
 
 <script>
+import About from "./About.vue";
+import Apply from "./Apply.vue";
+import Recruitment from "./Recruitment.vue";
+// import Progress from './Progress.vue'
+
 export default {
   name: "Home",
   data() {
@@ -33,6 +43,12 @@ export default {
       wowprogress: "https://www.wowprogress.com/guild/eu/burning-legion/Dreams",
       warcraftlogs: "https://www.warcraftlogs.com/guild/id/564669",
     };
+  },
+  components: {
+    About,
+    Recruitment,
+    Apply,
+    // Progress
   },
 };
 </script>

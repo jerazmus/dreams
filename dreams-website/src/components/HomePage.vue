@@ -1,5 +1,8 @@
 <template>
   <div class="home">
+    <transition name="fade" mode="out-in" v-if="this.$store.state.cover">
+      <div class="cover" v-if="this.$store.state.cover" />
+    </transition>
     <Home />
   </div>
 </template>
@@ -18,4 +21,18 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+
+.cover {
+  width: 100vw;
+  height: 280vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  overflow-y: hidden;
+}
+
+</style>
