@@ -47,6 +47,7 @@ h2 {
   color: white;
   margin-top: 5px;
   text-shadow: black 1px 0 10px;
+  user-select: none;
 }
 
 h1 {

@@ -109,6 +109,7 @@ export default {
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
   color: white;
+  user-select: none;
 }
 
 .navbar-light .navbar-toggler {

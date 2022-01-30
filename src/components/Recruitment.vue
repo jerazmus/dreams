@@ -50,7 +50,7 @@
       </li>
     </ul>
 
-    <h3>Dni i godziny raidów:</h3>
+    <h3 class="raid-days-header">Dni i godziny raidów:</h3>
     <ul class="raid-days">
       <li>poniedziałek (19:00 - 22:00)</li>
       <li>wtorek (19:00 - 22:00)</li>
@@ -99,14 +99,23 @@ export default {
   data() {
     return {
       classes: [
-        { status: true, class: "dk", spec: ["frost", "unholy", "blood"] },
-        { status: false, class: "dh", spec: ["havoc", "vengeance"] },
+        { status: true,
+          class: "dk",
+          spec: ["frost", "unholy", "blood"]
+        },
+        { status: false,
+          class: "dh",
+          spec: ["havoc", "vengeance"]
+        },
         {
           status: true,
           class: "druid",
           spec: ["balance", "feral", "restoration", "guardian"],
         },
-        { status: false, class: "mage", spec: ["arcane", "frost", "fire"] },
+        { status: false,
+          class: "mage",
+          spec: ["arcane", "frost", "fire"]
+        },
         {
           status: true,
           class: "rogue",
@@ -182,7 +191,9 @@ export default {
 
 <style scoped>
 h2,
-h3 {
+h3,
+p,
+li {
   font-weight: 300;
   color: white;
   margin-top: 5px;
@@ -190,14 +201,34 @@ h3 {
   text-shadow: black 2px 0 10px;
 }
 
-p,
-.information {
-  text-justify: auto;
-  text-align: justify;
+p {
+  text-align: justify !important;
 }
 
 li {
-  text-align: left !important;
+  text-align: justify !important;
+}
+
+.recruitment {
+  text-align: center;
+  width: 60vw;
+  min-height: 100vh;
+  height: auto;
+  margin: 20px auto 0px;
+  color: white;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.information {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5%;
+  text-align: justify !important;
+}
+
+.raid-days-header {
+  margin-top: 20px;
 }
 
 .raid-days {
@@ -211,18 +242,9 @@ li {
   list-style-type: circle;
 }
 
-.recruitment {
-  text-align: center;
-  width: 56.75vw;
-  min-height: 100vh;
-  height: auto;
-  margin: 20px auto 0px;
-  color: white;
-  padding-bottom: 20px;
-}
-
 .classes {
   padding: 0;
+  margin-top: 8vh;
 }
 
 img {

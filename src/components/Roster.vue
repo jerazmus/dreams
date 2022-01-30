@@ -1,5 +1,7 @@
 <template>
   <div class="roster col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+    <!-- <h5><p>Aktualny</p></h5> -->
+    <h1><p>SKŁAD</p></h1>
     <div class="members">
       <div
         class="member col-sm-12 col-md-6 col-lg-6 col-xl-3"
@@ -37,6 +39,13 @@ export default {
     return {
       roster: [
         {
+          nick: "Vânila",
+          class: "monk",
+          role: "tank",
+          twitchName: "null",
+          avatar: null,
+        },
+        {
           nick: "Antrack",
           class: "dh",
           role: "tank",
@@ -44,17 +53,10 @@ export default {
           avatar: null,
         },
         {
-          nick: "Meomonk",
-          class: "monk",
-          role: "tank",
-          twitchName: "imeo_",
-          avatar: null,
-        },
-        {
-          nick: "Hebín",
-          class: "shaman",
+          nick: "Mèo",
+          class: "priest",
           role: "healer",
-          twitchName: null,
+          twitchName: "imeo_",
           avatar: null,
         },
         {
@@ -72,8 +74,8 @@ export default {
           avatar: null,
         },
         {
-          nick: "Poldemar",
-          class: "druid",
+          nick: "Maiko",
+          class: "shaman",
           role: "healer",
           twitchName: null,
           avatar: null,
@@ -93,8 +95,8 @@ export default {
           avatar: null,
         },
         {
-          nick: "Trupimek",
-          class: "warrior",
+          nick: "Below",
+          class: "druid",
           role: "dps",
           twitchName: null,
           avatar: null,
@@ -107,8 +109,8 @@ export default {
           avatar: null,
         },
         {
-          nick: "Minight",
-          class: "warlock",
+          nick: "Moneyroot",
+          class: "druid",
           role: "dps",
           twitchName: null,
           avatar: null,
@@ -121,14 +123,14 @@ export default {
           avatar: null,
         },
         {
-          nick: "Kurjo",
-          class: "dk",
+          nick: "Plazmatic",
+          class: "mage",
           role: "dps",
           twitchName: null,
           avatar: null,
         },
         {
-          nick: "Frozeny",
+          nick: "Strukturka",
           class: "rogue",
           role: "dps",
           twitchName: null,
@@ -142,14 +144,14 @@ export default {
           avatar: null,
         },
         {
-          nick: "Ama",
+          nick: "Slesch",
           class: "hunter",
           role: "dps",
           twitchName: null,
           avatar: null,
         },
         {
-          nick: "Qatani",
+          nick: "Shayah",
           class: "priest",
           role: "dps",
           twitchName: null,
@@ -163,15 +165,15 @@ export default {
           avatar: null,
         },
         {
-          nick: "Tharkon",
-          class: "warrior",
+          nick: "Einkil",
+          class: "dh",
           role: "dps",
           twitchName: null,
           avatar: null,
         },
         {
-          nick: "Cïchy",
-          class: "rogue",
+          nick: "Astrryy",
+          class: "mage",
           role: "dps",
           twitchName: null,
           avatar: null,
@@ -224,6 +226,18 @@ export default {
 </script>
 
 <style scoped>
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  width: 58vw;
+  border-bottom: 2px solid #235ebe;
+}
+
 .title {
   margin-left: 2vw;
 }
@@ -236,11 +250,12 @@ export default {
   color: white;
   padding-bottom: 20px;
   padding: 20px;
+  align-content: center;
 }
 
 .members {
   display: flex;
-  margin: 30px auto 0px;
+  margin: 20px auto 0px;
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
