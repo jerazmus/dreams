@@ -21,8 +21,8 @@
       Ny'alotha była dla nas pierwszym sprawdzianem tego jak będzie wyglądać w
       przyszłości nasz progres. Głównym sukcesem był fakt, że z czasem udało nam
       się zebrać stałą grupę, chcącą przeć do przodu. Niestety, mała
-      atrakcyjność dodatku jakim było Battle for Azeroth spowodowała, że
-      niektóre osoby miały dość korupcji i wszystkiego innego co związane z
+      atrakcyjność dodatku jakim był Battle for Azeroth spowodowała, że
+      niektóre osoby miały dość korupcji i wszystkiego co związane z
       dodatkiem - poskutkowało to tym, że po zabiciu Xanesh nie byliśmy w stanie
       progresować kolejnych bossów i zatrzymaliśmy się na zabitych 6 na 12
       możliwych. Pozytywem wyciągniętym z Battle for Azeroth było zbudowanie
@@ -45,10 +45,10 @@
       wymagało znacznie więcej samozaparcia, ale też umiejętności. Po dosyć
       trudnym początku z czasem udało się nam przeć naprzód i dojść do
       Sludgefista. Tutaj niestety pojawiły się problemy typowe dla gildii z
-      końca stawki, której celują w późny Cutting Edge. Wypalenie, problemy z
+      końca stawki, która celuje w późny Cutting Edge. Wypalenie, problemy z
       rekrutacją i uzupełnienim ludzi, ciągła rotacja i nauka walki od początku
       spowodowały, że zostawiając Sludgefistowi zaledwie 4% życia grupa raidowa
-      nie miała możliwość dalej grać.
+      nie miała możliwości dalej grać.
     </p>
 
     <h2>Sanctum of Domination, a następnie Sepulcher of the First Ones</h2>

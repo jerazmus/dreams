@@ -8,7 +8,8 @@
         v-for="member in roster"
         :key="member.nick"
       >
-        <img :src="member.avatar" />
+        <!-- <img :src="member.avatar" /> -->
+        <img src="../assets/home-icons/avatar.jpg" />
         <span class="nickname" v-bind:style="{ color: colors[member.class] }">
           {{ member.nick }}
           <img
@@ -42,7 +43,7 @@ export default {
           nick: "Vânila",
           class: "monk",
           role: "tank",
-          twitchName: "null",
+          twitchName: null,
           avatar: null,
         },
         {
@@ -205,22 +206,22 @@ export default {
     getRole(role) {
       return require("@/assets/role/" + role + ".png");
     },
-    async getAvatar(nickname) {
-      const proxyUrl = `https://cors-anywhere.herokuapp.com/`;
-      const requestUrl = `https://eu.api.blizzard.com/profile/wow/character/burning-legion/${nickname.toLowerCase()}/character-media?namespace=profile-eu&locale=en_EU&access_token=1XUMVBr0PqQx4g06JUl1mk6Kg6FRqsLp`;
-      return fetch(proxyUrl + requestUrl)
-        .then((response) => response.json())
-        .then((data) => data.avatar_url);
-    },
-    async setAvatar(nickname) {
-      const avatar = await this.getAvatar(nickname);
-      this.roster
-        .filter((member) => member.nick === nickname)
-        .forEach((member) => (member.avatar = avatar));
-    },
+    // async getAvatar(nickname) {
+    //   const proxyUrl = `https://cors-anywhere.herokuapp.com/`;
+    //   const requestUrl = `https://eu.api.blizzard.com/profile/wow/character/burning-legion/${nickname.toLowerCase()}/character-media?namespace=profile-eu&locale=en_EU&access_token=1XUMVBr0PqQx4g06JUl1mk6Kg6FRqsLp`;
+    //   return fetch(proxyUrl + requestUrl)
+    //     .then((response) => response.json())
+    //     .then((data) => data.avatar_url);
+    // },
+    // async setAvatar(nickname) {
+    //   const avatar = await this.getAvatar(nickname);
+    //   this.roster
+    //     .filter((member) => member.nick === nickname)
+    //     .forEach((member) => (member.avatar = avatar));
+    // },
   },
   mounted() {
-    this.roster.forEach((member) => this.setAvatar(member.nick));
+    // this.roster.forEach((member) => this.setAvatar(member.nick));
   },
 };
 </script>
@@ -229,6 +230,7 @@ export default {
 h1, p {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 h1 {
@@ -255,7 +257,7 @@ h1 {
 
 .members {
   display: flex;
-  margin: 20px auto 0px;
+  margin: 70px auto 0px;
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
@@ -278,6 +280,7 @@ h1 {
   display: inline-block;
   height: auto;
   font-weight: 500;
+  user-select: none;
 }
 
 .role-img {
