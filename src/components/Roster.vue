@@ -332,6 +332,10 @@ h1 {
     width: 100vw;
     margin-top: 0;
   }
+
+  h1 {
+    width: 90vw;
+  }
 }
 
 @media (min-width: 768px) {
